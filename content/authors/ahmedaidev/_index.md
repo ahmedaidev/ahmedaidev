@@ -1,8 +1,8 @@
 ---
 title: Ahmed Aidev
 description: DevOps Engineer
-images:
-  - ./avatar.jpg
+# images:
+#   - ./avatar.jpg
 social:
   facebook: ahmedaidev
   youtube: ahmedaidev
