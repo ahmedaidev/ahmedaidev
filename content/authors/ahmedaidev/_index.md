@@ -1,8 +1,8 @@
 ---
 title: Ahmed Aidev
-description: DevOps Engineer
-# images:
-#   - ./avatar.jpg
+description: Digital Creator
+images:
+  - /images/logo.webp
 social:
   facebook: ahmedaidev
   youtube: ahmedaidev

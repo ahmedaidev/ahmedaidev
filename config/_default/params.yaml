@@ -1,9 +1,9 @@
-description: 🎯 Helping you master Tech, Apps & Software<br>🛡️ Privacy, Open-Source & Web Freedom Lifestyle<br>🚀 Learn, Build & Take control of your Digital Life
+description: 🎯 Helping you master Tech, AI & Software<br>🛡️ Privacy, Open-Source & Web Freedom<br>🚀 Learn, Build & Control your Digital Life
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
   styles:
-    primary: '#7f0d01'
+    primary: '#c11c17'
 
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
@@ -15,8 +15,19 @@ hb:
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: ahmedaidev
+      instagram: ahmedaidev
+      tiktok: ahmedaidev
+      facebook: ahmedaidev
+      threads: ahmedaidev
       twitter: ahmedaidev
+      linkedin: ahmedaidev
+      youtube: ahmedaidev
+      medium: ahmedaidev
+      github: ahmedaidev
+      gitlab: ahmedaidev
+      kofi: ahmedaidev
+      buymeacoffee: ahmedaidev
+      paypal: ahmedaidevp
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
@@ -26,9 +37,13 @@ hb:
       facebook: ahmedaidev
       threads: ahmedaidev
       twitter: ahmedaidev
+      linkedin: ahmedaidev
       youtube: ahmedaidev
+      medium: ahmedaidev
       github: ahmedaidev
+      gitlab: ahmedaidev
       kofi: ahmedaidev
+      buymeacoffee: ahmedaidev
       paypal: ahmedaidevp
   terms:
     # the paginate for categories, tags, series list pages.
@@ -38,7 +53,7 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
-        company: AA
+        company: '@ahmedaidev'
         location: Earth
         socials:
           instagram: ahmedaidev
@@ -46,10 +61,8 @@ hb:
           facebook: ahmedaidev
           threads: ahmedaidev
           twitter: ahmedaidev
+          linkedin: ahmedaidev
           youtube: ahmedaidev
-          github: ahmedaidev
-          kofi: ahmedaidev
-          paypal: ahmedaidevp
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.

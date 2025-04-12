@@ -150,7 +150,7 @@ Winget is Microsoft's official package manager for Windows. It provides a straig
 
 You can also add multiple apps and winget will create a PowerShell file to copy and run directly on your system
 
-![Winget](./winget.png)
+![Winget](/images/blog/how-to-install-software-on-windows/winget.png#center)
 
 Execute commands into Powershell terminal
 
