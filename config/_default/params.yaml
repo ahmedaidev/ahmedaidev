@@ -28,6 +28,7 @@ hb:
       kofi: ahmedaidev
       buymeacoffee: ahmedaidev
       paypal: ahmedaidevp
+      patreon: ahmedaidev
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
@@ -45,6 +46,7 @@ hb:
       kofi: ahmedaidev
       buymeacoffee: ahmedaidev
       paypal: ahmedaidevp
+      patreon: ahmedaidev
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
