@@ -9,7 +9,7 @@ nav_icon:
   name: book
   color: indigo
 authors:
-  - razonyang
+  - ahmedaidev
 ---
 
 A fast, responsive and feature-rich Hugo theme for blog and documentation site.

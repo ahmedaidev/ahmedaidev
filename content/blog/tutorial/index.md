@@ -1,9 +1,9 @@
 ---
-title: "Tutorial"
+title: 'Tutorial'
 # linkTitle:
 date: 2023-03-31T11:47:31+08:00
 draft: false
-description: 
+description: ""
 noindex: false
 pinned: true
 nav_weight: 1000
@@ -32,8 +32,7 @@ images:
 #         name: book
 #         color: '#e24d0e'
 authors:
-  - razonyang
-  - hugomods
+  - ahmedaidev
 ---
 
 A simple tutorial that offers samples and code snippets show how to create rich content, please refer to the [documentation](https://hbstack.dev/en/) for more usage.
