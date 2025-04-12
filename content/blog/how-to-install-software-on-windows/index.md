@@ -1,7 +1,7 @@
 ---
 title: 'How to Install Software on Windows'
 date: 2025-04-12T16:40:17+01:00
-draft: true
+draft: false
 description: 'Installing software on a Windows operating system can be accomplished through various methods, each with its own advantages and limitations. In this guide, we will explore four popular methods: Ninite, Chocolatey, Winget, Microsoft Store, and Manual installation. Follow along to discover how to install, upgrade, and uninstall software using each approach.'
 noindex: false
 featured: true
