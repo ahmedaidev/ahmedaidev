@@ -4,10 +4,10 @@ hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
   # styles:
   #   primary: '#6610f2'
-  
+
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
-  
+
   full_width: false # when true, the layout takes full width globally.
 
   header:
@@ -86,7 +86,7 @@ seo:
 pwa:
   debug: false
   icon_path: 'images/logo.png' # default to the logo path, replace it if the icon is different from the logo.
-  icon_sizes:	[48, 64, 128, 144, 256, 512]
+  icon_sizes: [48, 64, 128, 144, 256, 512]
   offline_image: 'images/pwa/offline.png' # the offline image to show if the requested image is not available.
   # manifest metadata, read more on https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json#list_of_manifest.json_keys.
   manifest:
