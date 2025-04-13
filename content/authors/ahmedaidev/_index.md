@@ -9,8 +9,7 @@ social:
   instagram: ahmedaidev
   github: ahmedaidev
   twitter: ahmedaidev
-  patreon: ahmedaidev
-  paypal: ahmedaidevp
+  buymeacoffee: ahmedaidev
   kofi: ahmedaidev
-  website: https://ahmedaidev.com
+  patreon: ahmedaidev
 ---

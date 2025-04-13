@@ -25,9 +25,8 @@ hb:
       medium: ahmedaidev
       github: ahmedaidev
       gitlab: ahmedaidev
-      kofi: ahmedaidev
       buymeacoffee: ahmedaidev
-      paypal: ahmedaidevp
+      kofi: ahmedaidev
       patreon: ahmedaidev
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
@@ -43,9 +42,8 @@ hb:
       medium: ahmedaidev
       github: ahmedaidev
       gitlab: ahmedaidev
-      kofi: ahmedaidev
       buymeacoffee: ahmedaidev
-      paypal: ahmedaidevp
+      kofi: ahmedaidev
       patreon: ahmedaidev
   terms:
     # the paginate for categories, tags, series list pages.
