@@ -21,7 +21,7 @@ hb:
       threads: ahmedaidev
       twitter: ahmedaidev
       linkedin: ahmedaidev
-      youtube: ahmedaidev
+      youtube: UCz6z4E9DnTj0KHmRaySQ8FQ
       medium: ahmedaidev
       github: ahmedaidev
       gitlab: ahmedaidev
@@ -38,7 +38,7 @@ hb:
       threads: ahmedaidev
       twitter: ahmedaidev
       linkedin: ahmedaidev
-      youtube: ahmedaidev
+      youtube: UCz6z4E9DnTj0KHmRaySQ8FQ
       medium: ahmedaidev
       github: ahmedaidev
       gitlab: ahmedaidev
@@ -62,7 +62,7 @@ hb:
           threads: ahmedaidev
           twitter: ahmedaidev
           linkedin: ahmedaidev
-          youtube: ahmedaidev
+          youtube: UCz6z4E9DnTj0KHmRaySQ8FQ
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
@@ -81,18 +81,18 @@ hb:
         - blog
         - tutorials
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: ahmedaidev/ahmedaidev
+      repo_id: R_kgDOOYYCwQ
+      category_id: DIC_kwDOOYYCwc4CpDHa
   docs:
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: ahmedaidev/ahmedaidev
+      repo_id: R_kgDOOYYCwQ
+      category_id: DIC_kwDOOYYCwc4CpDHa
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: ahmedaidev/ahmedaidev
       branch: main
       # subpath: exampleSite
   # gallery:

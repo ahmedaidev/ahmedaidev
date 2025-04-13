@@ -5,7 +5,7 @@ images:
   - /images/logo.webp
 social:
   facebook: ahmedaidev
-  youtube: ahmedaidev
+  youtube: UCz6z4E9DnTj0KHmRaySQ8FQ
   instagram: ahmedaidev
   github: ahmedaidev
   twitter: ahmedaidev
