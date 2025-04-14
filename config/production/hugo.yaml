@@ -1,5 +1,5 @@
 # see https://hugomods.com/en/docs/google-analytics/.
-# googleAnalytics: 'G-XXXXXXXXXX' # Google Analytics, please make sure you've imported the Google Analytics module.
+googleAnalytics: 'G-7PB32HYPZ1' # Google Analytics, please make sure you've imported the Google Analytics module.
 
 # disqusShortname: XXXXXX # The Disqus shortname.
 baseURL: 'https://ahmedaidev.com'
