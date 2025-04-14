@@ -1,4 +1,4 @@
-# see https://hugomods.com/en/docs/google-analytics/.
+# see https://hugomods.com/analytics/google/.
 googleAnalytics: 'G-7PB32HYPZ1' # Google Analytics, please make sure you've imported the Google Analytics module.
 
 # disqusShortname: XXXXXX # The Disqus shortname.
