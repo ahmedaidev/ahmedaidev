@@ -1,5 +1,5 @@
 ---
-title: 'How to Install Software on Windows'
+title: 'How to Install Apps on Windows'
 date: 2025-04-12T16:40:17+01:00
 draft: false
 description: 'Installing software on a Windows operating system can be accomplished through various methods, each with its own advantages and limitations. In this guide, we will explore four popular methods: Ninite, Chocolatey, Winget, Microsoft Store, and Manual installation. Follow along to discover how to install, upgrade, and uninstall software using each approach.'
@@ -36,6 +36,10 @@ authors:
   - [Chocolatey: Setup](#chocolatey-setup)
   - [Chocolatey: Install Apps](#chocolatey-install-apps)
   - [Chocolatey: Install Multiple Apps](#chocolatey-install-multiple-apps)
+- [Scoop](#scoop)
+  - [Scoop: Setup](#scoop-setup)
+  - [Scoop: Install Apps](#scoop-install-apps)
+  - [Scoop: Install Multiple Apps](#scoop-install-multiple-apps)
 - [Winget](#winget)
   - [Winget: Setup](#winget-setup)
   - [Winget: Install Apps](#winget-install-apps)
@@ -54,15 +58,15 @@ You can install most of the popular apps using this GUI tool by going to Ninite 
 
 1. Choose your desired apps
 
-![Ninite](/images/blog/how-to-install-software-on-windows/apps.png#center)
+![Ninite](/images/blog/how-to-install-apps-on-windows/apps.png#center)
 
 2. Click on **Get Your Ninite** button to download the installer
 
-![Ninite](/images/blog/how-to-install-software-on-windows/button.png#center)
+![Ninite](/images/blog/how-to-install-apps-on-windows/button.png#center)
 
 3. Last double click on the installer to start the process
 
-![Ninite](/images/blog/how-to-install-software-on-windows/installer.png#center)
+![Ninite](/images/blog/how-to-install-apps-on-windows/installer.png#center)
 
 ---
 
@@ -76,7 +80,7 @@ Chocolatey is a package manager for Windows that simplifies software installatio
 
 2. Right click on windows start menu > then choose **Terminal (Admin)**
 
-![Terminal](/images/blog/how-to-install-software-on-windows/terminal.png#center)
+![Terminal](/images/blog/how-to-install-apps-on-windows/terminal-admin.png#center)
 
 3. Copy & Paste the following command to install Chocolatey on your system
 
@@ -87,9 +91,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### Chocolatey: Install Apps
 
 > [!TIP]
-> Search for apps at [packages](https://community.chocolatey.org/packages)
+> Search for apps at [community.chocolatey.org/packages](https://community.chocolatey.org/packages)
 
-Execute commands into Powershell terminal
+Run commands inside Powershell terminal
 
 ```powershell
 # Command usage
@@ -132,6 +136,75 @@ choco install -y C:\Users\$env:UserName\Downloads\packages.config
 
 ---
 
+## Scoop
+
+Scoop is a also another great command-line installer for Windows which Hides GUI wizard-style installers and Eliminates permission popup windows
+
+### Scoop: Setup
+
+> [!WARNING]
+> You must have [Git](https://git-scm.com/downloads/win) installed before moving forward
+
+1. Open a Powershell terminal
+
+2. Right click on windows start menu > then choose **Terminal**
+
+![Terminal](/images/blog/how-to-install-apps-on-windows/terminal.png#center)
+
+3. Copy & Paste the following command to install Scoop on your system
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+4. Add the two most popular buckets (A bucket is a collection of apps)
+
+```powershell
+scoop bucket add main
+scoop bucket add extras
+```
+
+### Scoop: Install Apps
+
+> [!TIP]
+> Search for apps at [scoop.sh](https://scoop.sh/#/)
+
+Run commands inside the Powershell terminal
+
+```powershell
+# Command usage
+scoop search|install|update|uninstall <package-name>
+
+# Search for a package
+scoop search bitwarden
+
+# Install a package
+scoop install bitwarden
+
+# Use -y flag to paypass prompt
+scoop install -y bitwarden
+
+# Display all options and flags
+scoop help
+```
+
+### Scoop: Install Multiple Apps
+
+The best way to install multiple apps is to create a PowerShell script with all the desired apps
+
+> [!WARNING]
+> Make sure to add the bucket name before the app name "<BUCKET_NAME>/<APP_NAME>"
+
+```powershell
+# Continue adding more apps every line then add "\"
+scoop install extras/bitwarden \
+  main/bitwarden-cli \
+  main/nodejs
+```
+
+---
+
 ## Winget
 
 Winget is Microsoft's official package manager for Windows. It provides a straightforward way to manage software installations:
@@ -150,7 +223,7 @@ Winget is Microsoft's official package manager for Windows. It provides a straig
 
 You can also add multiple apps and winget will create a PowerShell file to copy and run directly on your system
 
-![Winget](/images/blog/how-to-install-software-on-windows/winget.png#center)
+![Winget](/images/blog/how-to-install-apps-on-windows/winget.png#center)
 
 Execute commands into Powershell terminal
 
@@ -187,13 +260,13 @@ The Microsoft Store is a user-friendly platform for discovering and installing a
 
 Click on your profile icon in the Top Right > Click on Settings > Check the Auto-Update Switch
 
-![store-settings](/images/blog/how-to-install-software-on-windows/store-settings.png#center)
+![store-settings](/images/blog/how-to-install-apps-on-windows/store-settings.png#center)
 
 ### MS Store: Uninstall Apps
 
 Open Settings > Apps > Installed Apps > Click on 3 dots icon for the desired app > Uninstall
 
-![settings](/images/blog/how-to-install-software-on-windows/settings.png#center)
+![settings](/images/blog/how-to-install-apps-on-windows/settings.png#center)
 
 ---
 
